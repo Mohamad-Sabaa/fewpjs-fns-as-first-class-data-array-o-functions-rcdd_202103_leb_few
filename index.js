@@ -42,7 +42,7 @@ function wakeDog(dogName, dogBreed) {
 
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
-const  exerciseDog = (dogName, dogBreed) => {
+function  exerciseDog  (dogName, dogBreed)  {
   let newArr = []
   for (let i=0; i < routine.length; i++){
     newArr.push(routine[i](dogName, dogBreed));
