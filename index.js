@@ -40,10 +40,12 @@ function wakeDog(dogName, dogBreed) {
 
 //const routine = [n1, n2, n3, n4, n5, n6];
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+let newArr = [];
 
 function exerciseDog (dogName, dogBreed){
   for (let i=0; i<routine.length; i++){
-    return routine[i](dogName, dogBreed);
+    newArr.push(routine[i](dogName, dogBreed));
+    return  newArr;
   }
 }
 exerciseDog("Esther", "Dalmation");
