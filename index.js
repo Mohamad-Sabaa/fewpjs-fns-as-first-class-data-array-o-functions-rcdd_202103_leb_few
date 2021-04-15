@@ -1,36 +1,26 @@
 
 function leashDog(dogName, dogBreed) {
-  const a = "Boo Radley";
-  const b = "Pibble";
-  return (`Leash ${a} the ${b}`);
+  return (`Leash ${dogName} the ${dogBreed}`);
 }
 
 
 function walkToPark (dogName, dogBreed) {
-  const a = "Bunny";
-  const b = "Labrador";
-  return (`Walk to the park with ${a} the ${b}`);
+  return (`Walk to the park with ${dogName} the ${dogBreed}`);
 }
 
 
 function throwFrisbee(dogName, dogBreed) {
-  const a = "Mary J. Blige";
-  const b = "Papillon";
-  return (`Throw the frisbee for ${a} the ${b}`);
+  return (`Throw the frisbee for ${dogName} the ${dogBreed}`);
 }
 
 
 function walkHome(dogName, dogBreed) {
-  const a = "Santa Paws";
-  const b = "Husky";
-  return (`Walk home with ${a} the ${b}`);
+  return (`Walk home with ${dogName} the ${dogBreed}`);
 }
 
 
 function unleashDog(dogName, dogBreed) {
-  const a = "Lauren";
-  const b = "Golden Retriever";
-  return (`Unleash ${a} the ${b}`);
+  return (`Unleash ${dogName} the ${dogBreed}`);
 }
 
 
