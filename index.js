@@ -42,8 +42,7 @@ function wakeDog(dogName, dogBreed) {
 
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
-function exerciseDog (dogName, dogBreed){
-  let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+const  exerciseDog = (dogName, dogBreed) =>{
   for (let i=0; i<routine.length; i++){
     return routine[i](dogName, dogBreed);
   }
