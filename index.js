@@ -39,7 +39,7 @@ function wakeDog(dogName, dogBreed) {
 // const n6 = unleashDog();
 
 //const routine = [n1, n2, n3, n4, n5, n6];
-let routine = [wakeDog,leashDog, walkHome, throwFrisbee, walkToPark, unleashDog];
+let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
 
 function exerciseDog (dogName, dogBreed){
   for (let i=0; i<routine.length; i++){
