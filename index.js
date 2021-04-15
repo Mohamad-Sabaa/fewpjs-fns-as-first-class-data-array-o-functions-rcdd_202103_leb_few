@@ -47,6 +47,6 @@ const  exerciseDog = (dogName, dogBreed) => {
   for (let i=0; i < routine.length; i++){
     newArr.push(routine[i](dogName, dogBreed));
   } return newArr;
-  
+
 }
 exerciseDog("Esther", "Dalmation");
